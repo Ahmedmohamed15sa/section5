@@ -5,5 +5,5 @@ jobs:
  explore-actions:
    runs-on: ubuntu-latest
    steps:
-    -  name:print event
-       run:echo "The job was automatically triggered by a ${{github.event_name}}
+    -  name: print event
+       run: echo "The job was automatically triggered by a ${{github.event_name}}
