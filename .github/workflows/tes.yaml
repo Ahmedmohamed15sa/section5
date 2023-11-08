@@ -1,5 +1,6 @@
 name:actions example
 on:push
+
 jobs:
  explore-actions:
    runs-on :ubuntu-latest
